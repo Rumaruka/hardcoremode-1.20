@@ -1,0 +1,43 @@
+# Mod Info
+mod_id=hardcoremode
+archive_name=hardcoremode
+mod_name=Coolest Hardcore
+mod_license=All Rights Reserved
+mod_authors=Rumaruka
+mod_description=True hardcore mode
+issue_tracker_url=
+
+mod_version=2.3
+build_candidate=true
+
+# Maven Info
+maven_group=com.rumaruka.hardcoremode
+hl_version=
+maven_url=
+
+# MC Info
+mc_version=1.20.1
+mc_range=[1.20,1.21)
+forge_version=47.0.35
+forge_range=[47,)
+mc_user=Rumaruka,a2e6906663414b989589e1c1bf78d53e
+
+# Misc Info
+java=17
+
+# Project ID on CurseForge
+cf_project=868661
+modrinth_project=3U2TinO2
+
+# alpha, beta, release
+release_type=release
+
+# List of mods separated by ;
+# If a specific mod for one platform is needed, @m: or @c: prefixes are used.
+# Example for adding Hammer Lib for both Modrinth & CurseForge:
+# @m:PlkSuVtM;@c:hammer-lib;
+# Which can be simplified to be just "hammer-lib" since the slug is the same on both platforms.
+required_mods=
+optional_mods=
+incompatible_mods=
+embedded_mods=

@@ -1,0 +1,7 @@
+{
+  "hardcoremode.take_health": {
+    "sounds": [
+      "hardcoremode:hardcoremode.take_health"
+    ]
+  }
+}

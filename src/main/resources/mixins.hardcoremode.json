@@ -1,0 +1,19 @@
+{
+	"required": true,
+	"minVersion": "0.8.5",
+	"package": "com.rumaruka.hardcoremode.mixin",
+	"refmap": "mixins.hardcoremode.refmap.json",
+	"target": "@env(DEFAULT)",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"CommandDifficultyMixin",
+		"DifficultyMixin",
+		"GameModeCommandMixin",
+		"GameTypeMixin",
+		"PhantomSpawnerMixin"
+	],
+	"client": [
+	],
+	"server": [
+	]
+}
