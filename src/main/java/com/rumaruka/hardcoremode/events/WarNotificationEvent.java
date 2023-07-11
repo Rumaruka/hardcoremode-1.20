@@ -16,7 +16,7 @@ public class WarNotificationEvent {
     public static void onPlayerIn(PlayerEvent.PlayerLoggedInEvent event) {
         Player player = event.getEntity();
 
-        if (isWar && !ModList.get().isLoaded("simplegrinder") && player.getName().equals("Diamkey")) {
+        if (isWar && !ModList.get().isLoaded("simplegrinder")) {
 
             player.displayClientMessage(Component.translatable("================"), false);
             player.displayClientMessage(Component.translatable(ChatFormatting.BLUE + "MAKE LOVE!"), false);

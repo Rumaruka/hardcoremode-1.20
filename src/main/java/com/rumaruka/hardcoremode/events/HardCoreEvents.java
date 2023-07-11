@@ -44,7 +44,7 @@ public class HardCoreEvents {
         LivingEntity living = event.getEntity();
         Entity entity = event.getSource().getEntity();
 
-        if (living instanceof Zombie || living instanceof AbstractSkeleton) {
+        if (living instanceof Zombie || living instanceof AbstractSkeleton || living instanceof Phantom) {
 
             if (entity instanceof Player player) {
 
